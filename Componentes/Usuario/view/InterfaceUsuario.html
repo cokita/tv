@@ -1,0 +1,78 @@
+<div class="fundoBranco" style="border: 5; border-color: #000000">
+    <!-- BEGIN Cabeca -->
+    <br>
+    <center><h1>Cadastro de Usuários</h1></center>
+    <br>
+    <div id="j_cadastro_usuario">
+        <form id="j_form_usuario" name="form_usuario" method="post" action="">
+            <input type="hidden"  name="control"     value="Usuario" />
+            <input type="hidden"  name="returnType"  value="json" />
+            <input type="hidden"  name="id_usuario"  id='j_id_usuario' value="{id_usuario}"/>
+            <input type="hidden"  name="action"      value="cadastrarUsuario"  />
+            <input type="hidden"  name="admin"       value="1"  />
+            
+            <table width="80%" class="campos" align="center">
+                <tr>
+                    <td width="25%">Nome:</td>
+                    <td colspan="3"><input type="text" id="j_nome_usuario" name="nome_usuario" value="{nome_usuario}" style="width: 300px;" title="Informe o nome completo do usuário"></td>
+                </tr>
+                <tr>
+                    <td>CPF:</td>
+                    <td colspan="3">
+                        <input type="text" id="j_cpf_usuario" name="cpf_usuario" maxlength="11" value="{cpf_usuario}" style="width: 300px;" title="Informe apenas números">
+                        <span id="j_msn_cpf"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Código DDI:</td>
+                    <td>
+                        <input type="text" id="j_ddi_usuario" name="ddi_usuario" maxlength="3" value="{ddi_usuario}" style="width: 30px;" value="55" title="Código ddi do telefone do usuário">
+                    </td>
+                    <td style="width: 70px;">
+                        Código DDD:
+                    </td>
+                    <td>
+                        <input type="text" id="j_ddd_usuario" name="ddd_usuario" maxlength="3" value="{ddd_usuario}" style="width: 30px;" title="Código ddd do telefone do usuário">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telefone:</td>
+                    <td colspan="3">
+                        <input type="text" id="j_telefone_usuario" name="telefone_usuario" value="{telefone_usuario}" style="width: 300px;" title="Informe apenas números">
+                        <span id="j_msn_telefone"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Banco:</td>
+                    <td colspan="3">
+                        <select id="j_banco_usuario" name="banco_usuario" style="width: 300px;">
+                            <!-- BEGIN Bancos -->
+                            <option value="{id_banco}" {selected}>{banco}</option>
+                            <!-- END Bancos -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agência:</td>
+                    <td>
+                        <input type="text" id="j_agencia_usuario" name="agencia_usuario" value="{agencia_usuario}" maxlength="20" style="width: 70px;">
+                    </td>
+                    <td>Conta:</td>
+                    <td>
+                        <input type="text" id="j_conta_usuario" name="conta_usuario" maxlength="20" value="{conta_usuario}" style="width: 70px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <input type="button" id="j_cadastrar_usuario" value="Salvar" class="button" style="width: 70px;">
+                        <!-- BEGIN BotaoVoltar -->
+                        <input type="button" id="j_voltar_usuario" value="Voltar" class="button" style="width: 70px;">
+                        <!-- END BotaoVoltar -->
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div><br>
+    <!-- END Cabeca -->
+</div>
+

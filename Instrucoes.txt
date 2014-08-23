@@ -1,0 +1,4 @@
+1) Mudar no .htaccess o nome da pasta.
+2) Mudar no config o nome da pasta.
+3) Habilitar o mbstring no php.ini
+4) Nào utilizar o TYPE para as requisições AJAX por causa da versão do JQUERY.

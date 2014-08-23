@@ -1,0 +1,39 @@
+<div class="dados">
+    {nome_usuario} - {telefone_usuario}</br>
+    CPF: {cpf_usuario}<br />
+    Agencia {agencia_usuario}<br />
+    Conta: {conta_usuario}<br />
+    Banco: {banco_usuario}<br />
+</div><br>
+<div align="right" style="margin-right: 20px; ">
+    <small><a href="{url}/Usuario_Visualizar">Voltar</a></small>
+</div>
+<!-- BEGIN Conteudo_Transacoes -->
+<div id="j_conteudo_transacaos" align="center">
+    <table class="extrato" width="95%">
+        <tr>
+            <td width="20%">Data da transacação</td>
+            <td width="20%" align="center">Tipo</td>
+            <td width="45%">Responsável</td>
+            <td width="15%">Valor</td>
+        </tr>
+
+        <!-- BEGIN Transacoes -->
+        <tr class="{class}">
+            <td>{data}</td>
+            <td align="center">{tipo_transacao}</td>
+            <td>{preposicao}: {nome}</td>
+            <td>{valor}</td>
+        </tr>
+        <!-- END Transacoes -->
+    </table>
+</div>
+<!-- END Conteudo_Transacoes -->
+<!-- BEGIN nenhumaTransacao -->
+<div class="sem_registros_fora">
+    <div class="sem_registros">
+        Não existem transações para este usuário.
+    </div>
+</div>
+<!-- END nenhumaTransacao -->
+<br><br><br>

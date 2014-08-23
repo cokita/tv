@@ -1,0 +1,45 @@
+<style type="text/css">
+input.btnpag     {width:20px;height:21px;border:none;padding: 20px 0 0 0;cursor:pointer;}
+.primeira_pag_on {background: url(images/icones/paginacao/pag_inicio_on.png)   no-repeat;}
+.anterior_pag_on {background: url(images/icones/paginacao/pag_anterior_on.png) no-repeat;}
+.proxima_pag_on  {background: url(images/icones/paginacao/pag_proximo_on.png)  no-repeat;}
+.ultima_pag_on   {background: url(images/icones/paginacao/pag_ultimo_on.png)   no-repeat;}
+</style>
+
+<form name="frmpaginacao" id="j_frmpaginacao" class="{classForms}" method="post" action="" onsubmit="{ajax}" style="padding:0; margin:0;">
+    <table id="paginacao" class="paginacao" width="100%" align="{align}" border="0" cellpadding="0" cellspacing="0">
+        <tr valign="top" style="line-height:21px;" align="right">
+            <td width="100%" nowrap><p style="margin-top:4px;">Mostrando <b>{row}</b> - <b>{itemPagina}</b> de <b id="j_numeroRegistros">{numeroRegistros}</b> &nbsp;</p></td>
+            <td nowrap align="left" style="line-height: 21px">
+                <!-- BEGIN Criterios -->
+                <input type="hidden" name="{campo}" value="{valor}">
+                <!-- END Criterios -->
+
+                <!-- BEGIN sePrimeiraAnterior -->
+                <input title="Primeira página" type='submit' name='pg_pagina' class="j_paginacao_item btnpag primeira_pag_on{classForm}" value='{pag_primeira}' align='top' id="j_anterior_primeira">
+                <input title="Anterior"        type='submit' name='pg_pagina' class="j_paginacao_item btnpag anterior_pag_on{classForm}" value='{pag_anterior}' align='top' id="j_anterior">
+                <!-- END sePrimeiraAnterior -->
+
+                <!-- BEGIN senaoPrimeiraAnterior -->
+                <input type='image' src='{url}images/icones/paginacao/pag_inicio_off.png' align='top' onclick="return false;" class="cursorDesativado">
+                <input type='image' src='{url}images/icones/paginacao/pag_anterior_off.png' align='top' onclick="return false;" class="cursorDesativado">
+                <!-- END senaoPrimeiraAnterior -->
+
+                <input type="hidden" name="numPagina" id="j_numPagina" value="{numPagina}" />
+                <input type="hidden" name="returnType" value="tpl" />
+                <input type='hidden' name='pg_pagina' id="j_pg_pagina"/>
+
+                <!-- BEGIN seProximaUltima -->
+                <input title="Próxima"       type='submit' name='pg_pagina' class="j_paginacao_item btnpag proxima_pag_on{classForm2}" value='{pag_proxima}' align='top' id="j_proxima">
+                <input title="Última página" type='submit' name='pg_pagina' class="j_paginacao_item btnpag ultima_pag_on{classForm2}"  value='{pag_ultima}' align='top' id="j_proxima_ultima">
+                <!-- END seProximaUltima -->
+
+                <!-- BEGIN senaoProximaUltima -->
+                <input type='image' src='{url}images/icones/paginacao/pag_proximo_off.png' align='top' onclick="return false;" class="cursorDesativado">
+                <input type='image' src='{url}images/icones/paginacao/pag_ultimo_off.png' align='top' onclick="return false;" class="cursorDesativado">
+                <!-- END senaoProximaUltima -->
+            </td>
+        </tr>
+    </table>
+    <div class="clear"></div>
+</form>

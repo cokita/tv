@@ -1,0 +1,45 @@
+<!-- BEGIN Conteudo_Processamentos -->
+<div class="section_box3" align="justify">
+    <div class="post_title2">
+        <input type="hidden" id="count_processamentos" value="{count}"/>
+        <img src="images/icones/coin-search.png"/>
+        <span id="j_titulo_processamento">Existem transações pendentes</span>
+    </div>
+    <!-- BEGIN Processamentos -->
+    <div class="text_area">
+        <div id="j_transacao_{id_transacao}">
+            <div class="publish_date2">{data_transacao}</div>
+            <div class="section_box4" align="justify">
+                <div class="subtitle">{nome_devedor}</div>
+                Agência: {agencia_devedor}<br />
+                Conta: {conta_devedor}<br />
+                Banco: {banco_devedor}<br />
+                <br />
+            </div>
+            <div class="seta"><img src="images/icones/right-arrow.png"/></div>
+            <div class="section_box4" align="justify">
+                <div class="subtitle">{nome_credor}</div>
+                Agência: {agencia_credor}<br />
+                Conta: {conta_credor}<br />
+                Banco: {banco_credor}<br />
+                <br />
+            </div>
+            <div class="seta" align="center" id="{id_transacao}">
+                <img src="images/icones/right.png" class="cursor j_processar"/><br>
+                <span class="cursor j_processar"><small>Processar</small></span>
+            </div>
+            <div class="valor">{valor}</div>
+            <div class="publish_date2"></div>
+        </div>
+    </div>
+    <!-- END Processamentos -->
+</div>
+<!-- END Conteudo_Processamentos -->
+
+<!-- BEGIN Nenhum_Processamento -->
+<div class="sem_registros_fora">
+    <div class="sem_registros">
+        Nenhum processamento pendente!
+    </div>
+</div>
+<!-- END Nenhum_Processamento -->

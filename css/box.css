@@ -1,0 +1,69 @@
+.tl {
+	background: url(../images/tabelas/tema1/bse.gif) no-repeat;
+	width: 7px;
+	height: 6px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.tm {
+	background: url(../images/tabelas/tema1/bsm.gif) repeat-x;
+	height: 6px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.tr {
+	background: url(../images/tabelas/tema1/bsd.gif) no-repeat;
+	width: 12px;
+	height: 6px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.ml {
+	background: url(../images/tabelas/tema1/bme.gif) repeat-y;
+	width: 7px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.mr {
+	background: url(../images/tabelas/tema1/bmd.gif) repeat-y;
+	width: 12px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.bl {
+	background: url(../images/tabelas/tema1/bie.gif) no-repeat;
+	width: 7px;
+	height: 12px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.bm {
+	background: url(../images/tabelas/tema1/bim.gif) repeat-x;
+	height: 12px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.br {
+	background: url(../images/tabelas/tema1/bid.gif) no-repeat;
+	width: 12px;
+	height: 12px;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.style1 {color: #FF0000}

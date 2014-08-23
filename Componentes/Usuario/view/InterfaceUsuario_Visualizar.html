@@ -1,0 +1,33 @@
+<div class="fundoBranco" style="border: 5; border-color: #000000">
+    <br>
+    <center><h1>Usuários Cadastrados</h1></center>
+    <br>
+    <!-- BEGIN Conteudo_Usuarios -->
+    <div id="j_conteudo_usuarios" align="center">
+
+        <!-- BEGIN Usuarios -->
+        <div class="box_user" align="justify" id="j_usuario_{id_usuario}">
+            <div class="user_data">
+                <div class="subtitle">{nome} - {telefone}</div>
+                CPF: {cpf}<br />
+                Agencia {agencia}<br />
+                Conta: {conta}<br />
+                Banco: {banco}<br />
+            </div>
+            <div class="acao_user">
+                <span class="cursor j_detalhe_usuario" id_usuario="{id_usuario}" style="vertical-align: bottom;"><img src="images/icones/lupa.png" height="32"></span><br>
+                <span class="cursor j_editar_usuario" id_usuario="{id_usuario}" style="vertical-align: bottom;"><img src="images/icones/editar.png" height="32"></span><br>
+                <span class="cursor j_excluir_usuario" id_usuario="{id_usuario}" style="vertical-align: bottom;"><img src="images/icones/deletar.png" height="32"></span><br>
+            </div>
+        </div>
+        <!-- END Usuarios -->
+    </div>
+    <!-- END Conteudo_Usuarios -->
+    <!-- BEGIN nenhumUsuario -->
+    <div class="sem_registros_fora">
+        <div class="sem_registros">
+            Não existem usuários cadastrados.
+        </div>
+    </div>
+    <!-- END nenhumUsuario -->
+</div>

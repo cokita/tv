@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #
+    # A variável RewriteBase contém o caminho relativo do projeto.
+    #
+    # Ex.: /~usuario/redesocial/
+    # Ex.: /redesocial/
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^(.*)$                           index.php?$1     [QSA]
+
+    RewriteRule ^(.*)/control.php(.*)$                control.php?$2   [QSA,L]
+    RewriteRule ^(.*)/js.php(.*)$                     js.php?$2        [QSA,L]
+    RewriteRule ^(.*)/logout.php(.*)$                 logout.php       [QSA,L]
+    RewriteRule ^(.*)/viewimage.php(.*)$              viewimage.php?$2 [QSA,L]
+
+    RewriteRule ^((js|css)/.*\.(js|css))$        $1               [QSA,L]
+    RewriteRule ^(js/.*\.(gif|jpg|png|swf|eot|svg|ttf|woff))      $1               [QSA,L]
+    RewriteRule ^(css/.*\.(gif|jpg|png|swf|eot|svg|ttf|woff))      $1               [QSA,L]
+    RewriteRule ^(js/.*)$                        $2               [QSA,L]
+    RewriteRule ^(swf/.*\.swf)$                  $2               [QSA,L]
+    RewriteRule ^(images/.*\.(gif|jpg|png|swf))$ $1               [QSA,L]
+    RewriteRule ^(upload_files/.*\.(gif|jpg|png|swf))$ $1               [QSA,L]
+
+</IfModule>
+

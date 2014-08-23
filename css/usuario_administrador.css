@@ -1,0 +1,5 @@
+#j_form_usuario .inputGroupContainer .form-control-feedback,
+#j_form_usuario .selectContainer .form-control-feedback {
+    top: 0;
+    right: -15px;
+}

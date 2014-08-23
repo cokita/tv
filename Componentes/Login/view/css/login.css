@@ -1,0 +1,100 @@
+﻿body {
+	background-image: url('../../../../images/login/background.jpg') !important;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#login-div {
+	background-image: url('../../../../images/login/login.jpg');
+	background-repeat: no-repeat;
+	width: 333px;
+	height: 317px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 30px 10px 10px 10px;
+}
+
+#logo {
+	width: 333px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 30px 10px 10px 10px;
+        font-size: 25pt;
+        font-weight: bold;
+	color: #ffffff;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+.input {
+	background-image: url('../../../../images/login/input-bg.jpg') !important;
+	height: 47px;
+	width: 265px;
+	border: 1px solid #8a8a8a;
+	font-size: 20pt;
+	color: #ffffff;
+	line-height: 47px;
+	padding-left: 4px;
+}
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 293px;
+}
+.login-info {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+.checkbox {
+	float: left;
+}
+.rememberme {
+	line-height: 20px;
+	font-size: 8pt;
+	color: #ffffff;
+	float: left;
+}
+#forgot-password {
+	text-align: right;
+	padding-right: 25px;
+}
+#forgot-password a {
+	color: #ffffff;
+	font-size: 8pt;
+	line-height: 20px;
+}
+#login-buttton {
+	text-align: right;
+	padding-right: 25px;
+	padding-top: 10px;
+}
+
+.scape{
+   margin-bottom: 2px; 
+}
+
+label { width: 10em; float: left; }
+label.error { 
+    float: none;
+    color: #ffffff;
+    vertical-align: top;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mensagem_login{
+    float: right;
+    color: #ffffff;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 35px;
+    background-image: url('../../../../images/icones/ico16_exclamacao.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;  /* width of the image plus a little extra padding */
+    display: block;  /* may not need this, but I've found I do */
+
+}
