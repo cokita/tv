@@ -147,11 +147,8 @@ $(document).ready(function() {
             },
             fields: {
                 nome_usuario: {
-                    message: 'The username is not valid',
                     validators: {
-                        notEmpty: {
-                            message: 'The username is required and cannot be empty'
-                        },
+                        notEmpty: {},
                         stringLength: {
                             min: 6,
                             max: 30,

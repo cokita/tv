@@ -23,6 +23,17 @@ class ControleLogin extends Control{
         return $resultado ? 1 : 0;
     }
 
+    function logout() {
+
+
+        session_start();
+        session_unset();
+        session_destroy();
+
+        header("location:index.php");
+        exit();
+    }
+
 }
 
 ?>
