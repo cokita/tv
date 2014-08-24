@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca6dee54-6c8c-452b-a729-112b3f86942e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="ca6dee54-6c8c-452b-a729-112b3f86942e" name="Default" comment="Alterando a forma de incluir o validador.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/bootbox/bootbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/bootbox/bootbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php" afterPath="$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/control/Control.php" afterPath="$PROJECT_DIR$/app/control/Control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dao/DAO.php" afterPath="$PROJECT_DIR$/app/dao/DAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html" afterPath="$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/head_js.html" afterPath="$PROJECT_DIR$/app/view/head_js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js" afterPath="$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tvcorporativa.iws" />
@@ -71,7 +77,7 @@
       <file leaf-file-name="InterfaceUsuario_Administrador.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="123" selection-start="430" selection-end="430" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1575">
+            <state line="33" column="66" selection-start="1862" selection-end="1881" vertical-scroll-proportion="-12.5" vertical-offset="195" max-vertical-offset="1710">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -79,46 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario_administrador.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/usuario_administrador.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="15" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUsuario.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="138" selection-end="180" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="2025">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControleLogin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Login/control/ControleLogin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="828" selection-end="987" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="675">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="14" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.88688946" vertical-offset="30" max-vertical-offset="1125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminUsuario_Administrador.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="5" selection-start="5632" selection-end="5632" vertical-scroll-proportion="-30.625" vertical-offset="1320" max-vertical-offset="2220">
+            <state line="59" column="0" selection-start="2782" selection-end="2782" vertical-scroll-proportion="6.25" vertical-offset="1035" max-vertical-offset="2235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Control.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/control/Control.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="28" selection-start="2536" selection-end="2544" vertical-scroll-proportion="-26.166666" vertical-offset="842" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
@@ -127,34 +106,52 @@
       <file leaf-file-name="head_js.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/head_js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="132" selection-start="755" selection-end="755" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="9" column="92" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario_administrador.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="usuario_administrador.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="31" selection-start="5105" selection-end="5105" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="3990">
+            <state line="198" column="9" selection-start="6684" selection-end="6684" vertical-scroll-proportion="3.1485944" vertical-offset="618" max-vertical-offset="4260">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/font-awesome/css/font-awesome.css">
+      <file leaf-file-name="bootbox.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/bootbox/bootbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23580">
+            <state line="72" column="15" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-2.8846154" vertical-offset="1005" max-vertical-offset="13500">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notEmpty.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/validator/notEmpty.js">
+      <file leaf-file-name="bootbox.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/bootbox/bootbox.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+            <state line="5" column="3038" selection-start="3106" selection-end="3106" vertical-scroll-proportion="-2.8846154" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dao/DAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="27" selection-start="4682" selection-end="4682" vertical-scroll-proportion="-0.06329114" vertical-offset="1630" max-vertical-offset="4440">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pt_BR.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/language/pt_BR.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="240" column="75" selection-start="8077" selection-end="8077" vertical-scroll-proportion="-15.115385" vertical-offset="3207" max-vertical-offset="5220">
               <folding />
             </state>
           </provider>
@@ -190,12 +187,17 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/css/usuario_administrador.css" />
         <option value="$PROJECT_DIR$/app/view/head_css.html" />
+        <option value="$PROJECT_DIR$/Componentes/Login/control/ControleLogin.php" />
+        <option value="$PROJECT_DIR$/app/view/admin.html" />
+        <option value="$PROJECT_DIR$/js/libs/bootstrapvalidator/language/pt_BR.js" />
+        <option value="$PROJECT_DIR$/app/control/Control.php" />
+        <option value="$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php" />
+        <option value="$PROJECT_DIR$/app/dao/DAO.php" />
+        <option value="$PROJECT_DIR$/app/view/head_js.html" />
+        <option value="$PROJECT_DIR$/js/libs/bootbox/bootbox.js" />
+        <option value="$PROJECT_DIR$/js/libs/bootbox/bootbox.min.js" />
         <option value="$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html" />
         <option value="$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js" />
-        <option value="$PROJECT_DIR$/app/view/head_js.html" />
-        <option value="$PROJECT_DIR$/Componentes/Login/control/ControleLogin.php" />
-        <option value="$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php" />
-        <option value="$PROJECT_DIR$/app/view/admin.html" />
       </list>
     </option>
   </component>
@@ -293,6 +295,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gallery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -325,7 +349,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
+              <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
+              <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -383,6 +407,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -405,11 +447,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/libs/bootbox" />
       <recent name="$PROJECT_DIR$/js/libs/bootstrapvalidator" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js/libs/bootstrap" />
       <recent name="$PROJECT_DIR$/js/libs/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/js/libs/bootstrap/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js/libs" />
@@ -668,17 +710,21 @@
       <created>1408796410660</created>
       <updated>1408796410660</updated>
       <workItem from="1408796412443" duration="15942000" />
-      <workItem from="1408826505122" duration="1262000" />
+      <workItem from="1408826505122" duration="7592000" />
     </task>
     <task id="LOCAL-00001" summary="Alterando a forma de incluir o validador.">
       <created>1408839525739</created>
       <updated>1408839525739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Alterando a forma de incluir o validador.&#10;">
+      <created>1408839570053</created>
+      <updated>1408839570053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17204000" />
+    <option name="totallyTimeSpent" value="23534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -704,7 +750,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -754,38 +800,13 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Alterando a forma de incluir o validador." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterando a forma de incluir o validador." />
+    <MESSAGE value="Alterando a forma de incluir o validador.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterando a forma de incluir o validador.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/head_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="74" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/bootstrapValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="288" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="28095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/validator/notEmpty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="840" selection-end="840" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Login/view/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="32" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
@@ -820,13 +841,6 @@
         <state line="7" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/control/Control.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="171" selection-end="171" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/control/Componente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="18" selection-start="3474" selection-end="3474" vertical-scroll-proportion="-15.625" vertical-offset="705" max-vertical-offset="2400" />
@@ -858,12 +872,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/jquery/ui/jquery-ui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="245655" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="245655">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/bootstrap/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6720" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6720">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/bootstrap/js/bootstrap.js">
@@ -873,17 +891,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/jquery/css/ui/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18465" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18465">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ie10-workaround.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="5" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Home/control/AdminHome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Home/control/ControleHome.php">
@@ -915,27 +930,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3049" column="0" selection-start="57751" selection-end="57868" vertical-scroll-proportion="-9.769231" vertical-offset="45481" max-vertical-offset="93135" />
+        <state line="3049" column="0" selection-start="57751" selection-end="57868" vertical-scroll-proportion="-9.769231" vertical-offset="45481" max-vertical-offset="93135">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/box.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36363637" vertical-offset="300" max-vertical-offset="1125" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36363637" vertical-offset="300" max-vertical-offset="1125">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tabs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/css/bootstrapValidator.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/default.js">
@@ -950,12 +975,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+        <state line="26" column="1" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
+        <state line="12" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/usuario_administrador.css">
@@ -989,22 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="31" selection-start="5105" selection-end="5105" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="3990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="123" selection-start="430" selection-end="430" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1575">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/bootstrapValidator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="26" selection-start="288" selection-end="306" vertical-scroll-proportion="0.17110266" vertical-offset="0" max-vertical-offset="28095">
@@ -1026,23 +1039,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/head_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="132" selection-start="755" selection-end="755" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="138" selection-end="180" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="2025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="5" selection-start="5632" selection-end="5632" vertical-scroll-proportion="-30.625" vertical-offset="1320" max-vertical-offset="2220">
           <folding />
         </state>
       </provider>
@@ -1056,7 +1055,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="14" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.88688946" vertical-offset="30" max-vertical-offset="1125">
+        <state line="48" column="14" selection-start="2233" selection-end="2233" vertical-scroll-proportion="-28.75" vertical-offset="30" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/control/Control.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="28" selection-start="2536" selection-end="2544" vertical-scroll-proportion="-26.166666" vertical-offset="842" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/DAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="27" selection-start="4682" selection-end="4682" vertical-scroll-proportion="-0.06329114" vertical-offset="1630" max-vertical-offset="4440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/bootstrapvalidator/language/pt_BR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="75" selection-start="8077" selection-end="8077" vertical-scroll-proportion="-15.115385" vertical-offset="3207" max-vertical-offset="5220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/head_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="92" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2782" selection-end="2782" vertical-scroll-proportion="6.25" vertical-offset="1035" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Home/control/AdminHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/bootbox/bootbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="15" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-2.8846154" vertical-offset="1005" max-vertical-offset="13500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/bootbox/bootbox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3038" selection-start="3106" selection-end="3106" vertical-scroll-proportion="-2.8846154" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="66" selection-start="1862" selection-end="1881" vertical-scroll-proportion="-12.5" vertical-offset="195" max-vertical-offset="1710">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="9" selection-start="6684" selection-end="6684" vertical-scroll-proportion="3.1485944" vertical-offset="618" max-vertical-offset="4260">
           <folding />
         </state>
       </provider>

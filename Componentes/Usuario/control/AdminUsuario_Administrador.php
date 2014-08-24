@@ -57,7 +57,8 @@ class AdminUsuario_Administrador extends Control {
                 $this->usuario->set("id_usuario_administrador", $this->params["id_usuario"]);
                 Usuario_AdministradorDAO::alterar($this->usuario);
             }
-            return $this->usuario;
+
+            $this->redirect('Usuario_Administrador');
         }
     }
 

@@ -111,6 +111,7 @@ abstract class DAO {
      * @return <type>
      */
     public static function query($sql, $class) {
+        $resultado = false;
         $conn = Conexao::obterConexao();
         $sql = self::prepare($sql, $class);
         if (property_exists($class, 'pg_pagina')) {
@@ -155,7 +156,7 @@ abstract class DAO {
         $id = 0;
 
         if (preg_match("/^insert into/i", $sql)) {
-            if ($_SESSION["banco"] == "pgsql") {
+            if (isset($_SESSION["banco"]) == "pgsql") {
                 $sql .= " returning " . $chave;
 
                 $resultado = self::query($sql, $modelo);

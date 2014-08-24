@@ -30,40 +30,6 @@ var usuario = {
         });
     },
 
-    cadastrar : function (){
-        var id_usuario = $("#j_id_usuario").val();
-        var erro = false;
-        $("#j_msn_email").html("");
-        $("#j_msn_login").html("");
-
-        if (validarEmail() == false) {
-            $("#j_msn_email").html("O e-mail informado já consta na base de dados.");
-            $("#j_msn_email").addClass("fail");
-            erro = true;
-        }
-        if (validarlogin() == false) {
-            $("#j_msn_login").html("O login informado já consta na base de dados.");
-            $("#j_msn_login").addClass("fail");
-            erro = true;
-        }
-        if(erro == false) {
-            $.ajax({
-                url      : "control.php",
-                type     : "POST",
-                dataType : "json",
-                data     : $("#j_form_usuario").serialize(),
-                beforeSend: function () {
-                    block();
-                },
-                success: function(data) {
-                    $("#j_cadastro_usuario").addClass("none");
-                    usuario.reload();
-                    unblock();
-                }
-            });
-        }
-    },
-
     loadUsuario : function (id_usuario){
 
         $.ajax({
@@ -82,7 +48,7 @@ var usuario = {
             },
             success: function(data) {
                 $("#j_id_usuario").val(id_usuario);
-                $("#j_cadastro_usuario").removeClass("none");
+                $("#j_cadastro_usuario").removeClass("hidden");
                 $("#j_nome_usuario").val(data.nome);
                 $("#j_login_usuario").val(data.login);
                 $("#j_email_usuario").val(data.email);
@@ -97,13 +63,10 @@ var usuario = {
     },
     
     excluir : function(id_usuario){
-        $.prompt("Tem certeza que deseja excluir este usuário?", {
-            buttons  : {
-                ok : "sim",
-                cancelar : false
-            },
-            callback : function(valida) {
-                if (valida) {
+        bootbox.confirm("Tem certeza que deseja excluir este usuário?",
+
+            function(result) {
+                if(result){
                     $.ajax({
                         type : "POST",
                         url  : "control.php",
@@ -128,60 +91,115 @@ var usuario = {
                         }
                     });
                 }
-            }
-        });
+            });
     }
 
 
 }
 
 $(document).ready(function() {
-    $("#j_cadastrar_usuario").click(function(){
 
-        $('#j_form_usuario').bootstrapValidator({
-            message: 'This value is not valid',
-            feedbackIcons: {
-                valid: 'glyphicon glyphicon-ok',
-                invalid: 'glyphicon glyphicon-remove',
-                validating: 'glyphicon glyphicon-refresh'
-            },
-            fields: {
-                nome_usuario: {
-                    validators: {
-                        notEmpty: {},
-                        stringLength: {
-                            min: 6,
-                            max: 30,
-                            message: 'The username must be more than 6 and less than 30 characters long'
-                        },
-                        regexp: {
-                            regexp: /^[a-zA-Z0-9_]+$/,
-                            message: 'The username can only consist of alphabetical, number and underscore'
-                        }
+    $('#j_form_usuario').bootstrapValidator({
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            nome_usuario: {
+                validators: {
+                    notEmpty: {},
+                    stringLength: {
+                        min: 1,
+                        max: 70
                     }
-                },
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The email is required and cannot be empty'
-                        },
-                        emailAddress: {
-                            message: 'The input is not a valid email address'
+                }
+            },
+            login_usuario: {
+                validators: {
+                    notEmpty: {},
+                    stringLength: {
+                        min: 2,
+                        max: 30
+                    },
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_]+$/,
+                        message: 'Insira apenas letras, números ou underscore'
+                    },
+                    callback: {
+                        message: 'O login informado já consta na base de dados.',
+                        callback: function(value, validator) {
+                            return validarlogin();
                         }
                     }
                 }
+            },
+            email_usuario: {
+                validators: {
+                    notEmpty: {},
+                    emailAddress: {},
+                    callback: {
+                        message: 'O e-mail informado já consta na base de dados.',
+                        callback: function(value, validator) {
+                            return validarEmail();
+                        }
+                    }
+                }
+            },
+            senha_usuario: {
+                validators: {
+                    notEmpty: {},
+                    stringLength: {
+                        min: 6,
+                        max: 45
+                    },
+                    identical: {
+                        field: 'senha_confirmacao_usuario'
+                    }
+                }
+            },
+            senha_confirmacao_usuario: {
+                validators: {
+                    notEmpty: {},
+                    stringLength: {
+                        min: 6,
+                        max: 45
+                    },
+                    identical: {
+                        field: 'senha_usuario'
+                    }
+                }
             }
-        }).on('success.form.bv', function(e){
-            e.preventDefault();
-            usuario.cadastrar();
-        });
+
+        }
     });
+
+
     $(".j_excluir_usuario").click(function(){
         usuario.excluir($(this).attr("id_usuario"));
     });
     $(".j_editar_usuario").click(function(){
-        usuario.loadUsuario($(this).attr("id_usuario"), $("#j_id_usuario_logado").val());
+        $('#j_senha_usuario').attr('disabled', 'disabled');
+        $('#j_senha_confirmacao_usuario').attr('disabled', 'disabled');
+        $('#j_div_alterar_senha').removeClass('hidden');
+
+
+
+        usuario.loadUsuario($(this).attr("id_usuario"));
     });
+
+    $('#j_alterar_senha').click(function(){
+        if($("#j_alterar_senha").is(':checked')){
+            $('#j_senha_usuario').removeAttr('disabled');
+            $('#j_senha_confirmacao_usuario').removeAttr('disabled');
+        }else{
+            $('#j_senha_usuario').attr('disabled', 'disabled');
+            $('#j_senha_confirmacao_usuario').attr('disabled', 'disabled');
+        }
+    });
+
+
 
     
     $("#j_adicionar_usuario").click(function(){
