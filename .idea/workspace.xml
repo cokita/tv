@@ -2,63 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca6dee54-6c8c-452b-a729-112b3f86942e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409523923.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409523923.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409523964.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409523964.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524014.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524014.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524109.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524109.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524247.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524247.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524289.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524289.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524297.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524297.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524319.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524319.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524327.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524327.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/1409524756.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload_files/thumb/1409524756.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Galeria/control/AdminGaleria.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Video/control/AdminVideo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Galeria/view/InterfaceGaleria.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Video/view/InterfaceVideo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Galeria/model/ModelGaleria_Item.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Video/model/ModelVideo_Youtube.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Video/dao/Video_YoutubeDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Galeria/view/css/galeria.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Galeria/view/js/galeria.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Video/view/css/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Componentes/Video/view/js/video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Imagem/control/AdminImagem.php" afterPath="$PROJECT_DIR$/Componentes/Imagem/control/AdminImagem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php" afterPath="$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Login/control/ControleLogin.php" afterPath="$PROJECT_DIR$/Componentes/Login/control/ControleLogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/control/ControleSessao.php" afterPath="$PROJECT_DIR$/app/control/ControleSessao.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Imagem/dao/ImagemDAO.php" afterPath="$PROJECT_DIR$/Componentes/Imagem/dao/ImagemDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Instrucoes.txt" afterPath="$PROJECT_DIR$/Instrucoes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Home/view/InterfaceHome_Admin.html" afterPath="$PROJECT_DIR$/Componentes/Home/view/InterfaceHome_Admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Imagem/view/InterfaceImagem.html" afterPath="$PROJECT_DIR$/Componentes/Imagem/view/InterfaceImagem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Home/control/AdminHome.php" afterPath="$PROJECT_DIR$/Componentes/Home/control/AdminHome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Home/control/ControleHome.php" afterPath="$PROJECT_DIR$/Componentes/Home/control/ControleHome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php" afterPath="$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Home/view/InterfaceHome.html" afterPath="$PROJECT_DIR$/Componentes/Home/view/InterfaceHome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html" afterPath="$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html" afterPath="$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Imagem/model/ModelImagem.php" afterPath="$PROJECT_DIR$/Componentes/Imagem/model/ModelImagem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/admin.html" afterPath="$PROJECT_DIR$/app/view/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/autoLoad.php" afterPath="$PROJECT_DIR$/app/config/autoLoad.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.php" afterPath="$PROJECT_DIR$/app/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/thumb/easyphpthumbnail.class.php" afterPath="$PROJECT_DIR$/app/libs/thumb/easyphpthumbnail.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/head_css.html" afterPath="$PROJECT_DIR$/app/view/head_css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/head_js.html" afterPath="$PROJECT_DIR$/app/view/head_js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Home/view/js/home.js" afterPath="$PROJECT_DIR$/Componentes/Home/view/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Imagem/view/css/imagem.css" afterPath="$PROJECT_DIR$/Componentes/Imagem/view/css/imagem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Imagem/view/js/imagem.js" afterPath="$PROJECT_DIR$/Componentes/Imagem/view/js/imagem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Login/view/css/login.css" afterPath="$PROJECT_DIR$/Componentes/Login/view/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Componentes/Login/view/js/login.js" afterPath="$PROJECT_DIR$/Componentes/Login/view/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/index.html" afterPath="$PROJECT_DIR$/app/view/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tvcorporativa.iws" />
@@ -123,10 +75,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminGaleria.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Galeria/control/AdminGaleria.php">
+      <file leaf-file-name="InterfaceUsuario_Administrador.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="55" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-16.916666" vertical-offset="104" max-vertical-offset="2820">
+            <state line="10" column="12" selection-start="472" selection-end="530" vertical-scroll-proportion="-5.625" vertical-offset="15" max-vertical-offset="1710">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceHome.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Componentes/Home/view/InterfaceHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="32" selection-start="273" selection-end="273" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Componentes/Home/view/js/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.2991453" vertical-offset="0" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControleHome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Componentes/Home/control/ControleHome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="77" selection-start="976" selection-end="976" vertical-scroll-proportion="-10.625" vertical-offset="195" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminHome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Componentes/Home/control/AdminHome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceLogin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="69" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head_js.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/head_js.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="8" selection-start="913" selection-end="1011" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -135,26 +141,8 @@
       <file leaf-file-name="AdminImagem.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Componentes/Imagem/control/AdminImagem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="5" selection-start="8338" selection-end="8338" vertical-scroll-proportion="-23.333334" vertical-offset="2995" max-vertical-offset="3960">
+            <state line="2" column="4" selection-start="46" selection-end="79" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="3960">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagemDAO.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Imagem/dao/ImagemDAO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="53" selection-start="1905" selection-end="1931" vertical-scroll-proportion="-8.25" vertical-offset="867" max-vertical-offset="1575">
-              <folding>
-                <marker date="1409530564000" expanded="true" signature="184:636" placeholder="insert into ..." />
-                <marker date="1409530564000" expanded="true" signature="788:826" placeholder="select * fro..imagem..." />
-                <marker date="1409530564000" expanded="true" signature="1589:1636" placeholder="delete from ..." />
-                <marker date="1409530564000" expanded="true" signature="1784:1822" placeholder="select max(o..imagem..." />
-                <marker date="1409530564000" expanded="true" signature="1964:2254" placeholder="select * fro..imagem..." />
-                <marker date="1409530564000" expanded="true" signature="2080:2215" placeholder="select id_im..galeria_item..." />
-                <marker date="1409530564000" expanded="true" signature="2393:2679" placeholder="select * fro..imagem..." />
-                <marker date="1409530564000" expanded="true" signature="2505:2640" placeholder="select id_im..galeria_item..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -162,76 +150,25 @@
       <file leaf-file-name="Galeria_ItemDAO.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="42" selection-start="235" selection-end="235" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1245">
+            <state line="110" column="26" selection-start="3697" selection-end="3697" vertical-scroll-proportion="-25.75" vertical-offset="1032" max-vertical-offset="1830">
               <folding>
-                <marker date="1409529833000" expanded="true" signature="209:745" placeholder="insert into ..." />
-                <marker date="1409529833000" expanded="true" signature="909:953" placeholder="select * fro..galeria_item..." />
-                <marker date="1409529833000" expanded="true" signature="1800:1865" placeholder="delete from ..." />
-                <marker date="1409529833000" expanded="true" signature="2073:2128" placeholder="delete from ..." />
+                <marker date="1409537250000" expanded="true" signature="209:745" placeholder="insert into ..." />
+                <marker date="1409537250000" expanded="true" signature="909:953" placeholder="select * fro..galeria_item..." />
+                <marker date="1409537250000" expanded="true" signature="1800:1865" placeholder="delete from ..." />
+                <marker date="1409537250000" expanded="true" signature="2073:2128" placeholder="delete from ..." />
+                <marker date="1409537250000" expanded="true" signature="2270:2276" placeholder="select id, c..id_imagem..." />
+                <marker date="1409537250000" expanded="true" signature="2270:3667" placeholder="select id, c..id_imagem..." />
+                <marker date="1409537250000" expanded="true" signature="2490:3001" placeholder="select i.id_..galeria_item..." />
+                <marker date="1409537250000" expanded="true" signature="3056:3570" placeholder="select y.id_..galeria_item..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelGaleria_Item.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Galeria/model/ModelGaleria_Item.php">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="91" selection-end="102" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Video_YoutubeDAO.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Video/dao/Video_YoutubeDAO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="52" selection-start="1923" selection-end="1948" vertical-scroll-proportion="-7.625" vertical-offset="807" max-vertical-offset="1485">
-              <folding>
-                <marker date="1409530647000" expanded="true" signature="212:746" placeholder="insert into ..." />
-                <marker date="1409530647000" expanded="true" signature="912:951" placeholder="select * fro..youtube..." />
-                <marker date="1409530647000" expanded="true" signature="1776:1826" placeholder="delete from ..." />
-                <marker date="1409530647000" expanded="true" signature="1982:2274" placeholder="select * fro..youtube..." />
-                <marker date="1409530647000" expanded="true" signature="2098:2235" placeholder="select id_yo..galeria_item..." />
-                <marker date="1409530647000" expanded="true" signature="2414:2702" placeholder="select * fro..youtube..." />
-                <marker date="1409530647000" expanded="true" signature="2526:2663" placeholder="select id_yo..galeria_item..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterfaceGaleria.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Galeria/view/InterfaceGaleria.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="36" selection-start="54" selection-end="61" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="660">
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imagem.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Imagem/view/js/imagem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="1905">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="galeria.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Componentes/Galeria/view/js/galeria.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="33" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterfaceImagem.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Componentes/Imagem/view/InterfaceImagem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="36" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.5037594" vertical-offset="355" max-vertical-offset="1020">
+            <state line="8" column="61" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -250,14 +187,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/libs/jquery/plugins/uiBlock/jquery.blockUI.js" />
-        <option value="$PROJECT_DIR$/css/usuario_administrador.css" />
-        <option value="$PROJECT_DIR$/js/libs/bootstrapvalidator/language/pt_BR.js" />
-        <option value="$PROJECT_DIR$/app/dao/DAO.php" />
-        <option value="$PROJECT_DIR$/js/libs/bootbox/bootbox.js" />
         <option value="$PROJECT_DIR$/js/libs/bootbox/bootbox.min.js" />
         <option value="$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js" />
-        <option value="$PROJECT_DIR$/Componentes/Home/view/js/home.js" />
         <option value="$PROJECT_DIR$/Componentes/Home/view/InterfaceHome_Admin.html" />
         <option value="$PROJECT_DIR$/Componentes/Imagem/model/UploadHandler.php" />
         <option value="$PROJECT_DIR$/Componentes/Imagem/control/ControleUpload.php" />
@@ -281,9 +212,7 @@
         <option value="$PROJECT_DIR$/app/view/admin.html" />
         <option value="$PROJECT_DIR$/app/control/Conexao.php" />
         <option value="$PROJECT_DIR$/Componentes/Login/control/ControleLogin.php" />
-        <option value="$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html" />
         <option value="$PROJECT_DIR$/Componentes/Login/view/js/login.js" />
-        <option value="$PROJECT_DIR$/Componentes/Home/control/AdminHome.php" />
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/Componentes/Video/model/ModelVideo_Youtube.php" />
         <option value="$PROJECT_DIR$/Componentes/Video/control/AdminVideo.php" />
@@ -294,13 +223,21 @@
         <option value="$PROJECT_DIR$/Componentes/Imagem/view/js/imagem.js" />
         <option value="$PROJECT_DIR$/Componentes/Galeria/model/ModelGaleria_Item.php" />
         <option value="$PROJECT_DIR$/Componentes/Imagem/control/AdminImagem.php" />
-        <option value="$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php" />
         <option value="$PROJECT_DIR$/Componentes/Imagem/dao/ImagemDAO.php" />
         <option value="$PROJECT_DIR$/Componentes/Video/dao/Video_YoutubeDAO.php" />
         <option value="$PROJECT_DIR$/Componentes/Galeria/control/AdminGaleria.php" />
         <option value="$PROJECT_DIR$/Componentes/Galeria/view/InterfaceGaleria.html" />
         <option value="$PROJECT_DIR$/Componentes/Galeria/view/js/galeria.js" />
         <option value="$PROJECT_DIR$/Componentes/Imagem/view/InterfaceImagem.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php" />
+        <option value="$PROJECT_DIR$/app/view/index.html" />
+        <option value="$PROJECT_DIR$/Componentes/Home/view/InterfaceHome.html" />
+        <option value="$PROJECT_DIR$/Componentes/Home/control/ControleHome.php" />
+        <option value="$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html" />
+        <option value="$PROJECT_DIR$/Componentes/Home/control/AdminHome.php" />
+        <option value="$PROJECT_DIR$/Componentes/Home/view/js/home.js" />
       </list>
     </option>
   </component>
@@ -366,20 +303,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -421,84 +344,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,6 +382,90 @@
               <option name="myItemId" value="Componentes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Componentes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Componentes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Componentes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Componentes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -575,84 +504,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Imagem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imagem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imagem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imagem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -695,6 +546,36 @@
               <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Componentes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -728,146 +609,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Galeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Galeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Galeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Galeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Galeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Galeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -887,6 +628,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tvcorporativa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -905,24 +694,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tvcorporativa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1213,7 +984,7 @@
       <created>1408796410660</created>
       <updated>1408796410660</updated>
       <workItem from="1408796412443" duration="15942000" />
-      <workItem from="1408826505122" duration="66622000" />
+      <workItem from="1408826505122" duration="74169000" />
     </task>
     <task id="LOCAL-00001" summary="Alterando a forma de incluir o validador.">
       <created>1408839525739</created>
@@ -1227,11 +998,15 @@
       <created>1408846906000</created>
       <updated>1408846906000</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Terminando área administrativa. Falta alguns detalhes... voltar depois.">
+      <created>1409531733112</created>
+      <updated>1409531733112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82564000" />
+    <option name="totallyTimeSpent" value="90111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1310,47 +1085,13 @@
     <MESSAGE value="Alterando a forma de incluir o validador." />
     <MESSAGE value="Alterando a forma de incluir o validador.&#10;" />
     <MESSAGE value="Concluindo a área de cadastro de usuários." />
-    <option name="LAST_COMMIT_MESSAGE" value="Concluindo a área de cadastro de usuários." />
+    <MESSAGE value="Terminando área administrativa. Falta alguns detalhes... voltar depois." />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminando área administrativa. Falta alguns detalhes... voltar depois." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Componentes/Imagem/control/ControleImagem_ExibirGaleria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Box/control/ControleBox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Imagem/control/ControleImagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="0" selection-end="3070" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instrucoes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php-133.326/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/gd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1050" column="9" selection-start="29373" selection-end="29373" vertical-scroll-proportion="0.36691728" vertical-offset="15506" max-vertical-offset="40275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/thumb/easyphpthumbnail.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="987" column="12" selection-start="26391" selection-end="26391" vertical-scroll-proportion="1.8591549" vertical-offset="13317" max-vertical-offset="34800">
@@ -1374,23 +1115,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/head_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="96" selection-start="208" selection-end="208" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/head_css.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="62" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/control/Componente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="140" selection-end="140" vertical-scroll-proportion="43.75" vertical-offset="1125" max-vertical-offset="2400">
           <folding />
         </state>
       </provider>
@@ -1411,13 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Home/view/InterfaceHome_Admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Usuario/control/AdminUsuario_Administrador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="38" selection-start="2874" selection-end="2892" vertical-scroll-proportion="-10.833333" vertical-offset="700" max-vertical-offset="2205">
@@ -1432,44 +1152,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Home/view/InterfaceHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="35" selection-start="4431" selection-end="4454" vertical-scroll-proportion="-56.25" vertical-offset="0" max-vertical-offset="1710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="37" selection-start="2363" selection-end="2363" vertical-scroll-proportion="-35.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/js/usuario_administrador.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="155" column="21" selection-start="5221" selection-end="5356" vertical-scroll-proportion="-6.923077" vertical-offset="2145" max-vertical-offset="4260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
@@ -1510,30 +1195,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="69" selection-start="1543" selection-end="1549" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Login/view/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="10" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Home/control/AdminHome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="14" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
@@ -1559,33 +1223,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Video/control/AdminVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="76" selection-start="2402" selection-end="2402" vertical-scroll-proportion="-10.625" vertical-offset="675" max-vertical-offset="2280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="239" selection-end="239" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/control/Conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="55" selection-start="2920" selection-end="2944" vertical-scroll-proportion="-14.583333" vertical-offset="850" max-vertical-offset="1515">
           <folding>
             <marker date="1408800981000" expanded="true" signature="-1:-1" placeholder="select u.id_..usuario_administrador..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/control/ControleSessao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="52" selection-start="2754" selection-end="2754" vertical-scroll-proportion="-15.625" vertical-offset="795" max-vertical-offset="1755">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1624,38 +1267,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="235" selection-end="235" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1245">
-          <folding>
-            <marker date="1409529833000" expanded="true" signature="209:745" placeholder="insert into ..." />
-            <marker date="1409529833000" expanded="true" signature="909:953" placeholder="select * fro..galeria_item..." />
-            <marker date="1409529833000" expanded="true" signature="1800:1865" placeholder="delete from ..." />
-            <marker date="1409529833000" expanded="true" signature="2073:2128" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Imagem/dao/ImagemDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="53" selection-start="1905" selection-end="1931" vertical-scroll-proportion="-8.25" vertical-offset="867" max-vertical-offset="1575">
           <folding>
-            <marker date="1409530564000" expanded="true" signature="184:636" placeholder="insert into ..." />
-            <marker date="1409530564000" expanded="true" signature="788:826" placeholder="select * fro..imagem..." />
-            <marker date="1409530564000" expanded="true" signature="1589:1636" placeholder="delete from ..." />
-            <marker date="1409530564000" expanded="true" signature="1784:1822" placeholder="select max(o..imagem..." />
-            <marker date="1409530564000" expanded="true" signature="1964:2254" placeholder="select * fro..imagem..." />
-            <marker date="1409530564000" expanded="true" signature="2080:2215" placeholder="select id_im..galeria_item..." />
-            <marker date="1409530564000" expanded="true" signature="2393:2679" placeholder="select * fro..imagem..." />
-            <marker date="1409530564000" expanded="true" signature="2505:2640" placeholder="select id_im..galeria_item..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="select * fro..imagem..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="select max(o..imagem..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="select * fro..imagem..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="select id_im..galeria_item..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="select * fro..imagem..." />
+            <marker date="1409530564000" expanded="true" signature="-1:-1" placeholder="select id_im..galeria_item..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Componentes/Imagem/control/AdminImagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="5" selection-start="8338" selection-end="8338" vertical-scroll-proportion="-23.333334" vertical-offset="2995" max-vertical-offset="3960">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,13 +1287,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="52" selection-start="1923" selection-end="1948" vertical-scroll-proportion="-7.625" vertical-offset="807" max-vertical-offset="1485">
           <folding>
-            <marker date="1409530647000" expanded="true" signature="212:746" placeholder="insert into ..." />
-            <marker date="1409530647000" expanded="true" signature="912:951" placeholder="select * fro..youtube..." />
-            <marker date="1409530647000" expanded="true" signature="1776:1826" placeholder="delete from ..." />
-            <marker date="1409530647000" expanded="true" signature="1982:2274" placeholder="select * fro..youtube..." />
-            <marker date="1409530647000" expanded="true" signature="2098:2235" placeholder="select id_yo..galeria_item..." />
-            <marker date="1409530647000" expanded="true" signature="2414:2702" placeholder="select * fro..youtube..." />
-            <marker date="1409530647000" expanded="true" signature="2526:2663" placeholder="select id_yo..galeria_item..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="select * fro..youtube..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="select * fro..youtube..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="select id_yo..galeria_item..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="select * fro..youtube..." />
+            <marker date="1409530647000" expanded="true" signature="-1:-1" placeholder="select id_yo..galeria_item..." />
           </folding>
         </state>
       </provider>
@@ -1685,7 +1309,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="36" selection-start="54" selection-end="61" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="660">
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1704,9 +1328,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/control/ControleSessao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="52" selection-start="2754" selection-end="2754" vertical-scroll-proportion="1.7005814" vertical-offset="0" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/control/Componente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="140" selection-end="140" vertical-scroll-proportion="0.10901163" vertical-offset="0" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Home/view/InterfaceHome_Admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="720" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="14" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="62" selection-start="711" selection-end="716" vertical-scroll-proportion="0.625" vertical-offset="240" max-vertical-offset="1200">
+          <folding>
+            <marker date="1409533439000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409533439000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409533439000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Imagem/control/ControleImagem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="406" selection-end="406" vertical-scroll-proportion="0.36090225" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/PEAR/HTML/Template/IT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-15.131902" vertical-offset="9866" max-vertical-offset="14850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Galeria/dao/Galeria_ItemDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="26" selection-start="3697" selection-end="3697" vertical-scroll-proportion="-25.75" vertical-offset="1032" max-vertical-offset="1830">
+          <folding>
+            <marker date="1409537250000" expanded="true" signature="209:745" placeholder="insert into ..." />
+            <marker date="1409537250000" expanded="true" signature="909:953" placeholder="select * fro..galeria_item..." />
+            <marker date="1409537250000" expanded="true" signature="1800:1865" placeholder="delete from ..." />
+            <marker date="1409537250000" expanded="true" signature="2073:2128" placeholder="delete from ..." />
+            <marker date="1409537250000" expanded="true" signature="2270:2276" placeholder="select id, c..id_imagem..." />
+            <marker date="1409537250000" expanded="true" signature="2270:3667" placeholder="select id, c..id_imagem..." />
+            <marker date="1409537250000" expanded="true" signature="2490:3001" placeholder="select i.id_..galeria_item..." />
+            <marker date="1409537250000" expanded="true" signature="3056:3570" placeholder="select y.id_..galeria_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Componentes/Imagem/view/InterfaceImagem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="36" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.5037594" vertical-offset="355" max-vertical-offset="1020">
+        <state line="31" column="16" selection-start="1442" selection-end="1464" vertical-scroll-proportion="0.20150375" vertical-offset="331" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Video/control/AdminVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="4" selection-start="3467" selection-end="3722" vertical-scroll-proportion="0.32330826" vertical-offset="1255" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/head_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="913" selection-end="1011" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Imagem/control/AdminImagem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="46" selection-end="79" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="3960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Home/view/InterfaceHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="273" selection-end="273" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Usuario/view/InterfaceUsuario_Administrador.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="472" selection-end="530" vertical-scroll-proportion="-5.625" vertical-offset="15" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Login/view/InterfaceLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="69" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Home/control/ControleHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="77" selection-start="976" selection-end="976" vertical-scroll-proportion="-10.625" vertical-offset="195" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Home/control/AdminHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Componentes/Home/view/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.2991453" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>

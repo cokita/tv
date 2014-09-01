@@ -7,6 +7,7 @@ class AdminHome extends Control {
     }
 
     public function index(){
+        session_destroy();
         $this->view->setVariable("saudacao", "As alterações efetuadas aqui podem influenciar no seu sistema, tenha responsabilidade.");
         
         return $this->view;

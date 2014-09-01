@@ -72,6 +72,45 @@ class Galeria_ItemDAO extends DAO {
         return self::exec($sql, $galeria_item);
     }
 
+    public function recuperarItems(Model $galeria_item){
+        $sql = "select
+                    id,
+                    caminho,
+                    duracao,
+                    id_galeria,
+                    ordem,
+                    tipo
+                from (
+                        select
+                            i.id_imagem   as id,
+                            i.caminho     as caminho,
+                            null          as duracao,
+                            gi.id_galeria as id_galeria,
+                            gi.ordem      as ordem,
+                            'i'           as tipo
+                        from galeria_item gi
+                        inner join imagem i
+                            on gi.id_imagem = i.id_imagem
+                        where i.ativo = 1
+                        union
+                        select
+                            y.id_youtube  as id,
+                            y.url         as caminho,
+                            y.duracao     as duracao,
+                            gi.id_galeria as id_galeria,
+                            gi.ordem      as ordem,
+                            'v'           as tipo
+                        from galeria_item gi
+                        inner join youtube y
+                            on gi.id_youtube = y.id_youtube
+                        where y.ativo = 1
+                ) as galeria
+                where id_galeria = 1
+                order by ordem";
+
+        return self::query($sql, $galeria_item);
+    }
+
 }
 
 ?>

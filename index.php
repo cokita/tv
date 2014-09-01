@@ -3,8 +3,8 @@ if (! require_once("app/config/config.php")) {
     echo "Falha ao incluir o arquivo de configuração 'app/config/config.php'.";
 } else {
     ControleSessao::obterDadosSessao();
-    $interface = "admin.html";
     if (Conexao::autenticarAdmin() == true) {
+        $interface = "admin.html";
         if(!ControleSessao::$control || ControleSessao::$control == "admin.php"){
             $controle = "AdminHome";
         }else{
@@ -29,14 +29,20 @@ if (! require_once("app/config/config.php")) {
             echo "Classe Inexistente";
         }
     }else {
-        //$interface = "login.html";
-        $componentePrincipal = new ControleLogin(null);
+        $interface = "index.html";
+        if(!ControleSessao::$control || ControleSessao::$control == "admin.php"){
+            $controle = "ControleHome";
+        }else{
+            $controle = "Controle". ControleSessao::$control;
+        }
+        $componentePrincipal = new $controle(null);
         $view               = Control::carregarInterface($interface);
         $conteudoComponente = $componentePrincipal->index();
         Componente::inclusaoDependencias(null, $view, $componentePrincipal);
+        $view->setVariable("aplicacao", $conteudoComponente->get());
         $conteudo = $conteudoComponente->get();
-        $view->touchBlock("Login");
-        $view->setVariable("aplicacao_login", $conteudo);
+//        $view->touchBlock("Login");
+//        $view->setVariable("aplicacao_login", $conteudo);
     }
     ControleSessao::apresentarConteudo($view);
 }
