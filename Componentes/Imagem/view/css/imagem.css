@@ -1,0 +1,54 @@
+.imagens{
+    padding: 30px;
+}
+
+.imagem{
+    margin: 30px 30px 0px 30px;
+}
+
+.pics img {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.nome_img{
+    overflow: hidden;
+    width: 200px;
+    height: 40px;
+}
+
+.nenhuma-imagem-encontrada{
+    padding: 20px;
+}
+
+#imgs li {
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+
+.mouse_move:hover{
+    cursor: move;
+}

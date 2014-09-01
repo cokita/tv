@@ -39,5 +39,22 @@ img              {border: 0;}
 .padding50{
     padding: 50px;
 }
+.margin50{
+    margin: 50px;
+}
+.margin30{
+    margin: 30px;
+}
 
+.margin10{
+    margin: 10px;
+}
+
+.margin15{
+    margin: 15px;
+}
+
+.width150{
+    width:  150px;
+}
 

@@ -13,20 +13,18 @@ class ControleLogin extends Control{
         return $this->view;
     }
 
-     function checarLogineSenha() {
+     function checarLogineSenha()
+     {
 
-        $this->usuarioAdmin->set('email', $this->params['email']);
-        $this->usuarioAdmin->set('login', $this->params['email']);
-        $this->usuarioAdmin->set('senha', $this->params['senha']);
+        $this->usuarioAdmin->set('email', $this->params['user_login']);
+        $this->usuarioAdmin->set('login', $this->params['user_login']);
+        $this->usuarioAdmin->set('senha', $this->params['senha_login']);
         $resultado = Usuario_AdministradorDAO::consultarLoginSenha($this->usuarioAdmin);
 
         return $resultado ? 1 : 0;
     }
 
     function logout() {
-
-
-        session_start();
         session_unset();
         session_destroy();
 

@@ -1,0 +1,38 @@
+<!-- BEGIN Conteudo -->
+
+        <div class="box" id="imagens">
+            <h4 class="text-center">Arraste imagens ou vídeos para a galeria.</h4>
+                <!-- BEGIN Conteudo_Itens -->
+                    <ul id="imgs" class="gallery ui-helper-reset ui-helper-clearfix ui-droppable">
+                        <!-- BEGIN Itens -->
+                        <li id="{ident}_{id_imagem}_i">
+                            <div class="width150 imagem">
+                                <div class="pics"><img src="{caminho_thumb}" class="mouse_move img-thumbnail"></div>
+                            </div>
+                        </li>
+                        <!-- END Itens -->
+                    </ul>
+                <!-- END Conteudo_Itens -->
+         </div>
+
+
+        <div class="box  ui-helper-reset ui-helper-clearfix ui-droppable" id="galeria">
+            <h4 class="text-center">GALERIA</h4>
+            <!-- BEGIN Conteudo_Itens_Galeria -->
+            <ul class='gallery ui-helper-reset'>
+                <!-- BEGIN Itens_Galeria -->
+                <li id="{ident}_{id_imagem}" class="ui-sortable-handle ui-draggable ui-draggable-handle" style="display: list-item;">
+                    <div class="width150 imagem">
+                        <div class="pics"><img src="{caminho_thumb}" class="mouse_move img-thumbnail"></div>
+                    </div>
+                </li>
+                <!-- END Itens_Galeria -->
+            </ul>
+            <!-- END Conteudo_Itens_Galeria -->
+        </div>
+        <div>
+            <input type="button" class="btn btn-primary btn-lg btn-block" value="Salvar Galeria" id="j_salvar_galeria">
+        </div>
+
+<!-- END Conteudo -->
+

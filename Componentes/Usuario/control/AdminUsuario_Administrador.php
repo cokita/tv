@@ -127,14 +127,12 @@ class AdminUsuario_Administrador extends Control {
         }
     }
 
-    function logout() {
-
-
-        session_start();
+    public function logout() {
+        _debug('oi'); die();
         session_unset();
         session_destroy();
 
-        header("location:index.php");
+        header("location:/");
         exit();
     }
 

@@ -984,7 +984,8 @@ class easyphpthumbnail {
 		}
 		if ($this->Thumbfilename!='') {
 			$this->image=$this->Thumbfilename;
-		}		
+		}
+
 		switch($this->size[2]) {
 			case 1:
 				imagegif($this->thumb,$this->Thumblocation.$this->Thumbprefix.basename($this->image));

@@ -18,6 +18,8 @@ function __autoLoad($classe) {
         $caminho = LIBS . "PEAR/$estiloPEAR";
     } else if (file_exists(LIBS . "phpmailer/$classe.php")) {
         $caminho = LIBS . "phpmailer/$classe.php";
+    } else if (file_exists(LIBS . "thumb/$classe.class.php")) {
+        $caminho = LIBS . "thumb/$classe.class.php";
     }else{
         if (strpos($classe, "_")) {
             if (substr($classe, 0, 5) == "Model") {

@@ -2,11 +2,21 @@
 
 class ImagemDAO extends DAO {
 
+    /**
+     * @param Model $imagem
+     * @return int|Model|resource
+     */
     public static function incluir(Model $imagem) {
-        $sql = "insert into imagem (caminho,
-                                    nome)
-                            values (:caminho,
-                                    :nome)";
+        $sql = "insert into imagem (nome,
+                                    extensao,
+                                    caminho,
+                                    caminho_thumb,
+                                    id_usuario)
+                            values (:nome,
+                                    :extensao,
+                                    :caminho,
+                                    :caminho_thumb,
+                                    :id_usuario)";
 
         $sucesso = self::exec($sql, $imagem);
         return $sucesso;
@@ -22,7 +32,7 @@ class ImagemDAO extends DAO {
             $sql .= " where " . implode(" and ", $criterio);
         }
 
-        $sql .= " order by nome";
+        $sql .= " order by data_inclusao desc";
 
         return self::query($sql, $imagem);
     }
@@ -51,20 +61,38 @@ class ImagemDAO extends DAO {
         return self::exec($sql, $imagem);
     }
 
-    public static function consultarImagensPorVeiculo(Model $imagem) {
-        $sql = "select i.id_imagem,
-                       i.caminho,
-                       i.nome as imagem,
-                       v.titulo,
-                       iv.ativo
+    public static function consultarUltimaOrdem(Model $imagem)
+    {
+        $sql = "select max(ordem) as ordem from imagem;";
+
+        return self::query($sql, $imagem);
+
+    }
+
+    public static function consultarImagensSemGaleria(Model $imagem){
+        $sql = "select *
                   from imagem i
-                   inner join imagem_veiculo iv
-                    on i.id_imagem = iv.id_imagem
-                   inner join veiculo v
-                    on v.id_veiculo = iv.id_veiculo
-                where v.id_veiculo = :id_veiculo";
+                 where id_imagem not in
+                                  (select id_imagem
+                                     from galeria_item
+                                    where id_imagem is not null)
+                   and ativo = :ativo";
+
         return self::query($sql, $imagem);
     }
+
+    public static function consultarImagensNaGaleria(Model $imagem){
+        $sql = "select *
+                  from imagem i
+                 where id_imagem in
+                                  (select id_imagem
+                                     from galeria_item
+                                    where id_imagem is not null)
+                   and ativo = :ativo";
+
+        return self::query($sql, $imagem);
+    }
+
 
 }
 

@@ -31,6 +31,12 @@ define("MODEL",          APP . "model/");
 define("PROJETO",        APP . "projeto/");
 define("HTML_COMPACTO",  false);
 
+define('LARGURA', 1280);
+define('ALTURA', 720);
+
+//Api do youtube
+define("YT_API_URL", "http://gdata.youtube.com/feeds/api/videos?q=");
+
 require_once(CONFIG . "autoLoad.php");
 
 ?>

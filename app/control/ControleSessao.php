@@ -76,8 +76,8 @@ class ControleSessao {
         if(isset($_SESSION["email"])){
             self::$email = $_SESSION["email"];
         }
-        if(isset($_SESSION["id_usuario"])){
-            self::$id_usuario = $_SESSION["id_usuario"];
+        if(isset($_SESSION["id_usuario_administrador"])){
+            self::$id_usuario = $_SESSION["id_usuario_administrador"];
         }
 
     }

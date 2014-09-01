@@ -1,0 +1,34 @@
+.box{
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #eee;
+    min-height: 500px;
+    max-height: 500px;
+    overflow: scroll;
+    margin: 10px;
+    width: 48%;
+    float: left;
+}
+
+#imgs li {
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    float: left;
+    list-style-type: none;
+}
+
+#galeria li {
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    float: left;
+    list-style-type: none;
+}
+
+.gallery{
+    float: left;
+}
+
+.img-thumbnail{
+    height: 100px;
+}

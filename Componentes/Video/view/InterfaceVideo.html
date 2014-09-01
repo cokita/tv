@@ -1,0 +1,56 @@
+<!-- BEGIN Conteudo -->
+    <br>
+    <h3>Vídeos</h3>
+    <br>
+    <div class="">
+        <form id="j_form_video" name="form_video" method="post" role="form">
+            <input type="hidden" name="id_usuario_logado" id='j_id_usuario_logado' value="{id_usuario_logado}" />
+            <input type="hidden" name="control"    value="Video"/>
+            <input type="hidden" name="action"     value="salvarVideo"/>
+            <input type="hidden" name="admin"      value="1"  />
+            <input type="hidden" name="returnType" value="json" />
+            <input type="text" class="form-control" name="youtube_url" id="j_youtube_url">
+            <input type='submit' name='submit' id="j_btn_upload_imagem" class="btn btn-primary btn-lg"   value="enviar">
+        </form>
+    </div>
+
+<div class="clearfix"></div>
+
+<!-- BEGIN Conteudo_Videos -->
+<div class="margin30">
+    <div>
+        <input type="hidden" id="j_videos_selecionados">
+        <ul id="videos">
+            <!-- BEGIN Videos -->
+            <li id="{id_youtube}">
+                <div>
+                    <div class="pull-left">
+                        <input type="checkbox" name="checkInativarVideo" value="{id_youtube}">
+                    </div>
+                    <div class=" width150 video">
+                        <div><img src="{caminho_thumb}" class="mouse_move img-thumbnail"></div>
+                        <div class="titulo_video">{titulo}</div>
+                    </div>
+                </div>
+            </li>
+            <!-- END Videos -->
+        </ul>
+        <div class="clearfix"></div>
+        <div class="pull-right">
+            <input type="button" class="btn btn-danger btn-lg" value="Inativar selecionados" id="j_inativar">
+        </div>
+    </div>
+    <!-- END Conteudo_Videos -->
+</div>
+<!-- BEGIN nenhumVideo -->
+<div class="margin30">
+    <p class="bg-danger nenhum-video-encontrado">
+        Nenhum vídeo encontrado.
+    </p>
+</div>
+<!-- END nenhumVideo -->
+
+
+
+<!-- END Conteudo -->
+
