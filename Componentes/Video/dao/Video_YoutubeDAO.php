@@ -77,13 +77,11 @@ class Video_YoutubeDAO extends DAO {
     }
 
     public static function consultarVideosNaGaleria(Model $youtube){
-        $sql = "select *
-                  from youtube
-                 where id_youtube in
-                                  (select id_youtube
-                                     from galeria_item
-                                    where id_youtube is not null)
-                   and ativo = :ativo";
+        $sql = "select y.*, gi.ordem
+                  from youtube y
+                  right join galeria_item gi
+                  on gi.id_youtube = gi.id_youtube
+                 where y.ativo = :ativo";
 
         return self::query($sql, $youtube);
     }

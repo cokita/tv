@@ -82,13 +82,11 @@ class ImagemDAO extends DAO {
     }
 
     public static function consultarImagensNaGaleria(Model $imagem){
-        $sql = "select *
+        $sql = "select i.*, gi.ordem
                   from imagem i
-                 where id_imagem in
-                                  (select id_imagem
-                                     from galeria_item
-                                    where id_imagem is not null)
-                   and ativo = :ativo";
+                  right join galeria_item gi
+                  on i.id_imagem = gi.id_imagem
+                 where i.ativo = :ativo";
 
         return self::query($sql, $imagem);
     }

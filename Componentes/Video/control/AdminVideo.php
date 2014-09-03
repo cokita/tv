@@ -55,8 +55,8 @@ class AdminVideo extends Control {
             if($urlCode){
                 $youtubeInfo = $this->getFullInfoYoutube($urlCode);
                 $youtubeModel = new ModelVideo_Youtube();
-                $youtubeModel->set("titulo", $youtubeInfo['title']);
-                $youtubeModel->set("descricao", $youtubeInfo['description']);
+                $youtubeModel->set("titulo", addslashes($youtubeInfo['title']));
+                $youtubeModel->set("descricao", addslashes($youtubeInfo['description']));
                 $youtubeModel->set("thumbnail", $youtubeInfo['thumbnail']);
                 $youtubeModel->set("duracao", $youtubeInfo['duration']);
                 $youtubeModel->set("url", $url);

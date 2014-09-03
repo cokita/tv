@@ -1,6 +1,6 @@
 <?php
 
-function _debug($var, $mode2 = false, $pilha = false) {
+function _debug($var, $die = false,$mode2 = false, $pilha = false) {
     echo "<div style=\"border: 3px solid #FF0000; background: #FFEE99; margin: 10px; padding: 10px;\"><pre>";
 
     if ($mode2) {
@@ -16,6 +16,9 @@ function _debug($var, $mode2 = false, $pilha = false) {
     }
 
     echo "</pre></div>";
+    if($die){
+        die();
+    }
 }
 
 function show_404($return_page = '') {

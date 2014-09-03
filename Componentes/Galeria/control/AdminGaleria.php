@@ -47,10 +47,10 @@ class AdminGaleria extends Control {
     }
 
     private function listarItensAvulsos(){
-        $arrImagens = $this->listarImagens('consultarImagensSemGaleria');
+       // $arrImagens = $this->listarImagens('consultarImagensSemGaleria');
         $arrVideos = $this->listarVideos('consultarVideosSemGaleria');
 
-        $itemsAvulsosOrdenados = $this->ordenarItens($arrImagens, $arrVideos);
+        //$itemsAvulsosOrdenados = $this->ordenarItens($arrImagens, $arrVideos);
 
         if($itemsAvulsosOrdenados) {
             $this->view->touchBlock("Conteudo_Itens");
@@ -119,7 +119,7 @@ class AdminGaleria extends Control {
         }elseif(!$imgs){
             $arrOrdenado = $videos;
         }else{
-            $arrCombinado = array_merge($imgs, $videos);
+            $arrCombinado = $imgs + $videos;
             ksort($arrCombinado);
             $arrDesc = array_reverse($arrCombinado);
             $arrOrdenado = $arrDesc;
@@ -139,13 +139,14 @@ class AdminGaleria extends Control {
 
         if($imagens){
             foreach($imagens as $img){
-                $arrImgs[$img->get('data_inclusao')] = array(
+                $arrImgs[$img->get('ordem')] = array(
                     'id' => $img->get('id_imagem'),
                     'nome' =>  $img->get('nome'),
                     'thumb' => $img->get('caminho_thumb'),
                     'caminho' => $img->get('caminho'),
                     'data' => $img->get('data_inclusao'),
                     'id_usuario' => $img->get('id_usuario'),
+                    'ordem'      => $img->get('ordem'),
                     'ident'      => 'i'
                 );
             }
@@ -162,13 +163,14 @@ class AdminGaleria extends Control {
 
         if($videos){
             foreach($videos as $video){
-                $arrVideos[$video->get('data_inclusao')] = array(
+                $arrVideos[$video->get('ordem')] = array(
                     'id' => $video->get('id_youtube'),
                     'nome' => $video->get('titulo'),
                     'thumb' => $video->get('thumbnail'),
                     'caminho' => $video->get('url'),
                     'data' => $video->get('data_inclusao'),
                     'id_usuario' => $video->get('id_usuario'),
+                    'ordem'      => $video->get('ordem'),
                     'ident'      => 'v'
                 );
             }

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    var player;
     $('#myCarousel').carousel({
         interval: 3000
     });
@@ -8,12 +8,12 @@ $(document).ready(function(){
         if($('.active').find('.j_tipo').html() == 'v'){
             $('#myCarousel').carousel('pause');
             $('.active').append('<div id="player"></div>');
-            onYouTubePlayerAPIReady()
+            onYouTubePlayerAPIReady();
         }
     });
 
 
-    var player;
+
     function onYouTubePlayerAPIReady() {
         var code = $('.active').find('.url_code').html();
         player = new YT.Player('player', {
@@ -25,6 +25,7 @@ $(document).ready(function(){
                 'onStateChange': onPlayerStateChange
             }
         });
+
     }
 
     function onPlayerReady(event) {
@@ -34,6 +35,7 @@ $(document).ready(function(){
     function onPlayerStateChange(event) {
         if(event.data === 0) {
             $('#myCarousel').carousel('cycle');
+            $('#player').remove();
         }
     }
 });
